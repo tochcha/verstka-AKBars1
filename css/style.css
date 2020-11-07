@@ -198,7 +198,7 @@ input[type=email] {
   border: 1px solid #bfbfbf;
   background-color: #fff;
   margin: 0;
-  font: 20px/28px Montserrat, sans-serif;
+  font: 20px/28px OpenSans, sans-serif;
   color: #231f20;
   padding: 10px 15px;
   vertical-align: middle;
@@ -414,7 +414,7 @@ a.button {
   color: #fff;
   margin: 0;
   padding: 15px 3vw;
-  font: 600 18px/26px Montserrat, sans-serif;
+  font: 600 18px/26px OpenSans, sans-serif;
   max-width: 100%;
 }
 
@@ -441,13 +441,13 @@ a.button_rounded {
 .button_small_45,
 a.button_small_45 {
   padding: 10px 1.5vw;
-  font: 700 16px/21px Montserrat, sans-serif;
+  font: 700 16px/21px OpenSans, sans-serif;
 }
 
 .button_small_35,
 a.button_small_35 {
   padding: 5px 1.5vw;
-  font: 700 14px/21px Montserrat, sans-serif;
+  font: 700 14px/21px OpenSans, sans-serif;
 }
 
 .button_alter,
@@ -667,9 +667,9 @@ body {
   color: #231f20;
   margin: 0px;
   padding: 0px;
-  font-family: Montserrat, sans-serif;
+  font-family: OpenSans, sans-serif;
   background-color: #fff;
-  font-size: 16px;
+  font-size: 14px;
   height: 100%;
   line-height: 1.5;
   position: relative;
@@ -708,7 +708,7 @@ p {
 /* titles start */
 .h1,
 h1 {
-  font-family: Montserrat, sans-serif;
+  font-family: OpenSans, sans-serif;
   font-size: 44px;
   line-height: 1.2;
   padding: 0 0 45px;
@@ -724,7 +724,7 @@ h1 {
 
 .h2,
 h2 {
-  font-family: Montserrat, sans-serif;
+  font-family: OpenSans, sans-serif;
   font-size: 36px;
   line-height: 1.2;
   padding: 0 0 35px;
@@ -733,7 +733,7 @@ h2 {
 
 .h3,
 h3 {
-  font-family: Montserrat, sans-serif;
+  font-family: OpenSans, sans-serif;
   font-size: 26px;
   line-height: 1.2;
   padding: 0 0 25px;
@@ -755,7 +755,7 @@ h6 {
 
 /* titles end */
 .custom2 {
-  font-family: OpenSans, sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 /* Styles for dialog window */
@@ -954,7 +954,7 @@ body .mm-opening .header {
   -webkit-transition: 0.2s;
   transition: 0.2s;
   cursor: pointer;
-  font: 13px/30px Montserrat, sans-serif;
+  font: 13px/30px OpenSans, sans-serif;
 }
 
 .jq-selectbox__dropdown ul li:hover {
@@ -1090,7 +1090,7 @@ body .mm-opening .header {
 
 .wrapper {
   min-width: 320px;
-  max-width: 1240px;
+  max-width: 1100px;
   padding: 0 20px;
   margin: 0 auto;
 }
