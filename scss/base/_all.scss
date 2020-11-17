@@ -2277,12 +2277,12 @@ input.inputtext {
 		border-radius: 5px;
 	}
 }
-@media only screen and (min-width : 480px) {
+@media only screen and (min-width: 480px) {
 	.interest__icon {
 		display: none;
 	}
 }
-@media only screen and (max-width : 479px) {
+@media only screen and (max-width: 479px) {
 	.interest__list {
 		display: block;
 	}
