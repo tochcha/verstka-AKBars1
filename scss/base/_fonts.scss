@@ -53,7 +53,18 @@ bolder - Изменяет начертание относительно насы
 	font-weight: 600;
 	font-style: normal;
 }
-
+@font-face {
+	font-display: swap;
+	font-family: "Montserrat";
+	src: url("../fonts/ofont_ru_Montserrat.eot");
+	src: url("../fonts/ofont_ru_Montserrat.eot") format("embedded-opentype"),
+		url("../fonts/ofont_ru_Montserrat.woff2") format("woff2"),
+		url("../fonts/ofont_ru_Montserrat.woff") format("woff"),
+		url("../fonts/ofont_ru_Montserrat.ttf") format("truetype"),
+		url("../fonts/ofont_ru_Montserrat.svg#ofont_ru_Montserrat") format("svg");
+	font-weight: 700;
+	font-style: normal;
+}
 @font-face {
 	font-display: swap;
 	font-family: "Montserrat";
@@ -61,64 +72,68 @@ bolder - Изменяет начертание относительно насы
 	src: url("../fonts/Montserrat-ExtraBold.eot?#iefix") format("embedded-opentype"),
 		url("../fonts/Montserrat-ExtraBold.woff") format("woff"),
 		url("../fonts/Montserrat-ExtraBold.ttf") format("truetype");
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-display: swap;
+	font-family: "OpenSans";
+	src: url("../fonts/OpenSans-Light.eot");
+	src: url("../fonts/OpenSans-Light.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/OpenSans-Light.woff") format("woff"), url("../fonts/OpenSans-Light.ttf") format("truetype");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-display: swap;
+	font-family: "OpenSans";
+	src: url("../fonts/OpenSans-Regular.eot");
+	src: url("../fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-display: swap;
+	font-family: "OpenSans";
+	src: url("../fonts/OpenSans-Italic.eot");
+	src: url("../fonts/OpenSans-Italic.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/OpenSans-Italic.woff") format("woff"), url("../fonts/OpenSans-Italic.ttf") format("truetype");
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-display: swap;
+	font-family: "OpenSans";
+	src: url("../fonts/OpenSans-SemiBold.eot");
+	src: url("../fonts/OpenSans-SemiBold.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/OpenSans-SemiBold.woff") format("woff"), url("../fonts/OpenSans-SemiBold.ttf") format("truetype");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-display: swap;
+	font-family: "OpenSans";
+	src: url("../fonts/OpenSansBold.eot");
+	src: url("../fonts/OpenSansBold.eot") format("embedded-opentype"),
+		url("../fonts/OpenSansBold.woff2") format("woff2"), url("../fonts/OpenSansBold.woff") format("woff"),
+		url("../fonts/OpenSansBold.ttf") format("truetype"), url("../fonts/OpenSansBold.svg#OpenSansBold") format("svg");
 	font-weight: 700;
 	font-style: normal;
 }
 
-
 @font-face {
-    font-display: swap;
-    font-family: 'OpenSans';
-    src: url('../fonts/OpenSans-Light.eot');
-    src: url('../fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/OpenSans-Light.woff') format('woff'),
-    url('../fonts/OpenSans-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-display: swap;
-    font-family: 'OpenSans';
-    src: url('../fonts/OpenSans-Regular.eot');
-    src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/OpenSans-Regular.woff') format('woff'),
-    url('../fonts/OpenSans-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-display: swap;
-    font-family: 'OpenSans';
-    src: url('../fonts/OpenSans-Italic.eot');
-    src: url('../fonts/OpenSans-Italic.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/OpenSans-Italic.woff') format('woff'),
-    url('../fonts/OpenSans-Italic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-display: swap;
-    font-family: 'OpenSans';
-    src: url('../fonts/OpenSans-SemiBold.eot');
-    src: url('../fonts/OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/OpenSans-SemiBold.woff') format('woff'),
-    url('../fonts/OpenSans-SemiBold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-}
-
-@font-face {
-    font-display: swap;
-    font-family: 'OpenSans';
-    src: url('../fonts/OpenSansBold.eot');
-    src: url('../fonts/OpenSansBold.eot') format('embedded-opentype'),
-         url('../fonts/OpenSansBold.woff2') format('woff2'),
-         url('../fonts/OpenSansBold.woff') format('woff'),
-         url('../fonts/OpenSansBold.ttf') format('truetype'),
-         url('../fonts/OpenSansBold.svg#OpenSansBold') format('svg');
-  font-weight: 700;
-  font-style: normal;
+	font-display: swap;
+	font-family: "OpenSans";
+	src: url("../fonts/OpenSans-ExtraBold.eot");
+	src: url("../fonts/OpenSans-ExtraBold.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/OpenSans-ExtraBold.woff") format("woff"),
+		url("../fonts/OpenSans-ExtraBold.ttf") format("truetype");
+	font-weight: 800;
+	font-style: normal;
 }

@@ -1,8 +1,3 @@
-"use strict";
-
-/*$(window).on("load",function(){/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)?$("body").addClass("ios"):$("body").addClass("web");$("body").removeClass("loaded")});*/
-
-
 document.addEventListener("DOMContentLoaded", function () {
 	var body = document.body;
 	body.classList.remove("loading");
@@ -33,32 +28,6 @@ function closeModal() {
 	uniOverlay.classList.remove("active");
 };
 // модальное окно end
-
-
-// кастомный скроллбар описание: http://manos.malihu.gr/jquery-custom-content-scroller/
-// кастомный скроллбар демо (theme): http://manos.malihu.gr/repository/custom-scrollbar/demo/examples/scrollbar_themes_demo.html
-/*if($('.scrollY').length) {
-	$(".scrollY").mCustomScrollbar({
-		axis:"y",
-		theme:"dark-2",
-		scrollbarPosition: "inside",
-		scrollInertia: "400",
-		documentTouchScroll: "false",
-		advanced:{
-			autoExpandHorizontalScroll:"true",
-		}
-	});
-};
-if($('.scrollX').length) {
-	$(".scrollX").mCustomScrollbar({
-		axis:"x",
-		theme:"inset",
-		scrollbarPosition: "outside",
-		scrollInertia: "400",
-		documentTouchScroll: "false",
-	});
-};*/
-
 
 // тень от меню при прокрутке страницы больше чем 355px
 $(window).scroll(function () {
@@ -108,6 +77,10 @@ $(function () {
 	})
 	return true;
 });
+
+if ($('.styled').length) {
+    $('.styled').styler();
+};
 
 // валидация форм
 $(function () {
@@ -226,9 +199,9 @@ $(function () {
 $(".polzunok").slider({
 	animate: true,
 	range: "min",
-	value: 10000000,
+	value: 50000000,
 	min: 5000000,
-	max: 65000000,
+	max: 150000000,
 	step: 1000000,
 	slide: function (event, ui) {
 		$("#slider-input").val(ui.value);
