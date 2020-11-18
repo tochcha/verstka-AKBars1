@@ -634,60 +634,6 @@ bolder - Изменяет начертание относительно насы
 */
 @font-face {
   font-display: swap;
-  font-family: "Montserrat";
-  src: url("../fonts/Montserrat-Regular.eot");
-  src: url("../fonts/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Montserrat";
-  src: url("../fonts/Montserrat-Italic.eot");
-  src: url("../fonts/Montserrat-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Italic.woff") format("woff"), url("../fonts/Montserrat-Italic.ttf") format("truetype");
-  font-weight: normal;
-  font-style: italic;
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Montserrat";
-  src: url("../fonts/Montserrat-Medium.eot");
-  src: url("../fonts/Montserrat-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Medium.woff") format("woff"), url("../fonts/Montserrat-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Montserrat";
-  src: url("../fonts/Montserrat-SemiBold.eot");
-  src: url("../fonts/Montserrat-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-SemiBold.woff") format("woff"), url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Montserrat";
-  src: url("../fonts/ofont_ru_Montserrat.eot");
-  src: url("../fonts/ofont_ru_Montserrat.eot") format("embedded-opentype"), url("../fonts/ofont_ru_Montserrat.woff2") format("woff2"), url("../fonts/ofont_ru_Montserrat.woff") format("woff"), url("../fonts/ofont_ru_Montserrat.ttf") format("truetype"), url("../fonts/ofont_ru_Montserrat.svg#ofont_ru_Montserrat") format("svg");
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Montserrat";
-  src: url("../fonts/Montserrat-ExtraBold.eot");
-  src: url("../fonts/Montserrat-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-ExtraBold.woff") format("woff"), url("../fonts/Montserrat-ExtraBold.ttf") format("truetype");
-  font-weight: 800;
-  font-style: normal;
-}
-
-@font-face {
-  font-display: swap;
   font-family: "OpenSans";
   src: url("../fonts/OpenSans-Light.eot");
   src: url("../fonts/OpenSans-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Light.woff") format("woff"), url("../fonts/OpenSans-Light.ttf") format("truetype");
@@ -1951,6 +1897,17 @@ body .mm-opening .header {
 .blue_section--no_bg input[type="email"] {
   background-color: #fff;
   border-radius: 7px;
+}
+
+.blue_section--no_bg textarea:focus,
+.blue_section--no_bg input[type="url"]:focus,
+.blue_section--no_bg input[type="search"]:focus,
+.blue_section--no_bg input[type="number"]:focus,
+.blue_section--no_bg input[type="password"]:focus,
+.blue_section--no_bg input[type="tel"]:focus,
+.blue_section--no_bg input[type="text"]:focus,
+.blue_section--no_bg input[type="email"]:focus {
+  border-color: #fbfbfb;
 }
 
 .form {
@@ -3527,6 +3484,12 @@ input.inputtext:focus {
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
+  -webkit-transition: all .2s ease-out 0s;
+  transition: all .2s ease-out 0s;
+}
+
+.interest__box:hover {
+  background-color: #eff4ff;
 }
 
 .interest__content {
@@ -3537,7 +3500,7 @@ input.inputtext:focus {
 }
 
 .interest__h2 {
-  font: 900 36px/1.4 OpenSans, Helvetica, Arial, sans-serif;
+  font: 800 36px/1.4 OpenSans, Helvetica, Arial, sans-serif;
   padding-bottom: 44px;
 }
 
@@ -3590,15 +3553,6 @@ input.inputtext:focus {
     padding-left: 0;
     padding-right: 0;
     width: 100%;
-    /* &--inverce {
-				background-color: $orange;
-				border-color: $orange;
-				color: #ffffff;
-				&:hover {
-					background-color: $orangeLight;
-					border-color: $orangeLight;
-				}
-			} */
   }
 }
 
@@ -3608,6 +3562,11 @@ input.inputtext:focus {
     width: 220px;
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .interest__buttons .button--inverce:hover {
+    background-color: #fff;
+    color: #06379b;
+    border-color: #fff;
   }
 }
 
