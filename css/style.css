@@ -1028,7 +1028,7 @@ body .mm-opening .header {
   width: 100%;
   background-color: #fff;
   border: 1px solid #dedede;
-  padding: 2px 0;
+  padding: 0;
   margin-top: -18px;
   margin-bottom: -18px;
   border-radius: 7px;
@@ -1037,7 +1037,7 @@ body .mm-opening .header {
 .jq-selectbox__dropdown ul {
   margin: 0;
   padding: 0;
-  max-height: 188px;
+  max-height: 184px;
 }
 
 .jq-selectbox__dropdown ul li {
@@ -2698,12 +2698,13 @@ input.inputtext:focus {
 
 .real_estate {
   background-color: #f0f6fe;
-  padding: 75px 0 0;
+  padding: 75px 0 20px;
 }
 
 @media only screen and (max-width: 1199px) {
   .real_estate {
     padding-top: calc((100vw - 320px) / (1200 - 320) * (75 - 30) + 30px);
+    padding-bottom: 0;
   }
 }
 

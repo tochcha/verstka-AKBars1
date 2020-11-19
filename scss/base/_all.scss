@@ -45,10 +45,10 @@ p {
 .h1,
 h1 {
 	font-family: $font2;
+	color: $title;
 	font-size: 48px;
 	line-height: 1.2;
 	padding: 0 0 45px;
-	color: $title;
 	font-weight: 800;
 	@media only screen and (max-width: 1199px) {
 		font-size: calc((100vw - 320px) / (1200 - 320) * (48 - 28) + 28px);
@@ -58,8 +58,8 @@ h1 {
 h2 {
 	font-family: $font2;
 	font-size: 36px;
-	line-height: 1.2;
 	padding: 0 0 35px;
+	line-height: 1.2;
 	color: $title;
 }
 .h3,
@@ -234,14 +234,14 @@ body .mm-opening .header {
 	width: 100%;
 	background-color: #fff;
 	border: 1px solid $border;
-	padding: 2px 0;
+	padding: 0;
 	margin-top: -18px;
 	margin-bottom: -18px;
 	border-radius: 7px;
 	ul {
 		margin: 0;
 		padding: 0;
-		max-height: 188px;
+		max-height: 184px;
 		li {
 			list-style: none;
 			padding: 0 15px;
@@ -1519,9 +1519,10 @@ input.inputtext {
 }
 .real_estate {
 	background-color: #f0f6fe;
-	padding: 75px 0 0;
+	padding: 75px 0 20px;
 	@media only screen and (max-width: 1199px) {
 		padding-top: calc((100vw - 320px) / (1200 - 320) * (75 - 30) + 30px);
+		padding-bottom: 0;
 	}
 }
 .real_estate__flex {
